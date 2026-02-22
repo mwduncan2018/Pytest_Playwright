@@ -5,7 +5,9 @@ from pages.pages import Pages
 
 @pytest.fixture(scope="session")
 def base_url():
-    return "http://localhost:3000"
+    #url = "http://localhost:3000" # Local Execution
+    url = "http://host.docker.internal:3000" # Docker Execution
+    return url
 
 
 @pytest.fixture
