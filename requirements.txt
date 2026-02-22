@@ -1,0 +1,14 @@
+# Core Testing Framework
+pytest==8.3.4
+
+# Playwright Integration (Handles browser management)
+pytest-playwright==0.6.2
+
+# Allure Reporting (For allure.step and visual dashboards)
+allure-pytest==2.13.5
+
+# Parallel Execution (To run tests on multiple CPU cores)
+pytest-xdist==3.6.1
+
+# Optional: Async support (Recommended if using Playwright's async API)
+pytest-asyncio==0.23.5
